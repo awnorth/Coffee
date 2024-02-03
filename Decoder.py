@@ -14,4 +14,10 @@ def caesarDecoder(message, offset):
             decoded_message += (alphabet_list[new_index])
         else:
             decoded_message += char
-    return print(decoded_message)
+    return decoded_message
+
+secret_message = "WIVHLVETPRERCPJZJTRESVL"
+
+for i in range(26):
+    print(caesarDecoder(secret_message, i))
+    
