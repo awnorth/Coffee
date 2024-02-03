@@ -3,7 +3,7 @@
 import string
 
 alphabet_list = [letter for letter in string.ascii_lowercase]
-
+secret = "Hqk, itmf fuyq pa kag imzf fa xqmhq?"
 def caesarDecoder(message, offset):
     decoded_message =""
     for char in message:
@@ -16,8 +16,6 @@ def caesarDecoder(message, offset):
             decoded_message += char
     return decoded_message
 
-secret_message = "WIVHLVETPRERCPJZJTRESVL"
 
-for i in range(26):
-    print(caesarDecoder(secret_message, i))
-    
+
+print(caesarDecoder(secret, 12))   
