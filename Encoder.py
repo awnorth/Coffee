@@ -15,4 +15,3 @@ def caesarEncoder(message, offset):
             encoded_message += char
     return print(encoded_message)
 
-caesarEncoder("hey, let's go.", 12)
