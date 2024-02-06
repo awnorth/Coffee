@@ -17,5 +17,6 @@ def caesarDecoder(message, offset):
     return decoded_message
 
 
+message = "insert message here"
 
-print(caesarDecoder("vsm, zsh'g uc.", 12))   
+print(caesarDecoder(message, 12))   
